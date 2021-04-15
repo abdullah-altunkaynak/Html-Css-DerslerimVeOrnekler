@@ -1,0 +1,339 @@
+html, body
+{
+	-webkit-user-select: none;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.mainhead
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+#mainimg
+{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	filter: contrast(120%);
+}
+
+#sitename
+{
+	width: auto;
+	height: auto;
+	color: white;
+	position:absolute;
+	font-family: "Arial Black", Gadget, sans-serif;
+	letter-spacing: 1px;
+	margin: 3% 0px 0px 7%;
+}
+
+#menubar
+{
+	width: auto;
+	height: 200px;
+	color: white;
+	position: absolute;
+	font-family: sans-serif;
+	margin: 3% 0px 0px 60%;
+}
+
+#menubar ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menubar ul li
+{
+	float: left;
+	margin: 1% 0px 0px 20px;
+}
+
+#signupbutton
+{
+	width: 70px;
+	height: 20px;
+	color: black;
+	position:absolute;
+	padding: 5px;
+	background:rgba(205,202,91,.9);
+	font-family: "Arial Black", sans-serif;
+	margin: 3% 0px 0px 84%;
+	font-size: 15px;
+}
+
+#mainwords1
+{
+	width: auto;
+	height: auto;
+	color: white;
+	position:absolute;
+	font-family: "Arial Black", Gadget, sans-serif;
+	letter-spacing: 1px;
+	margin: 17% 0px 0px 7%;
+	font-size: 55px;
+}
+
+#mainwords2
+{
+	width: auto;
+	height: auto;
+	display: inline-block;
+	background: linear-gradient(to right, white, #5AA4E7, #196EBC);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	position:absolute;
+	font-family: "Arial Black", Gadget, sans-serif;
+	letter-spacing: 1px;
+	margin: 21% 0px 0px 7%;
+	font-size: 60px;
+}
+
+#playbuttoncontainer
+{
+	width: 100px;
+	height: 25px;
+	position:absolute;
+	padding: 5px;
+	margin: 37% 0px 0px 7%;
+}
+
+#playintro
+{
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	background: #141212;
+	left: 0;
+	top: 0;
+}
+
+#playintro h1
+{
+	color: white;
+	font-size:12px;
+	font-family: "Arial Black", sans-serif;
+	text-align: center;
+}
+
+#playintro2
+{
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	background: rgba(205,202,91,1);
+	right: 0;
+	top: 0;
+}
+
+#playintro2:hover
+{
+	background: linear-gradient(to right, rgba(205,202,91,0.9),#4E7DB8);
+}
+
+#playtriangle
+{
+	width: 40%;
+	height: 40%;
+	position: absolute;
+	background: #141212;
+	left: 35%;
+	top: 30%;
+	clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+
+#playtriangle:hover
+{
+	width: 60%;
+	height: 60%;
+	left: 25%;
+	top: 20%;
+}
+
+#inforead
+{
+	width: 35%;
+	height: 20%;
+	position: absolute;
+	background: #090A0A;
+	top: 90%;
+	right: 0px;
+}
+
+#infotext
+{
+	width: 85%;
+	height: 75%;
+	color: white;
+	padding: 2px;
+	position: absolute;
+	top: 10%;
+	left: 4%;
+}
+
+#readmore
+{
+	width: 40%;
+	height: 10%;
+	color: white;
+	position: absolute;
+	top: 80%;
+	left: 4%;
+}
+
+#content1
+{
+	width: 90%;
+	height: 75%;
+	position: absolute;
+	top: 110%;
+	left: 5%;
+	
+}
+
+#photo1
+{
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+}
+
+#photo1 img
+{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+	position: absolute;
+}
+
+#photo2
+{
+	width: 68%;
+	height: 60%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#photo2 img
+{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+	position: absolute;
+}
+
+#content1headlist
+{
+	color: black;
+	position: absolute;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	left: 40%;
+	top: 15%;
+}
+
+#content1headlist ul
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;	
+}
+
+
+#content1headlist ul li
+{
+	float: left;
+	margin: 0px 0px 0px 70px;
+}
+
+#content1contentlist
+{
+	color: black;
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 14px;
+	left: 40%;
+	top: 25%;
+}
+
+#content1contentlist ul
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;	
+}
+
+
+#content1contentlist ul li
+{
+	float: left;
+	margin: 0px 0px 0px 66px;
+}
+
+#content1inforead
+{
+	width: 18%;
+	height: 35%;
+	color: white;
+	position: absolute;
+	background: #090A0A;
+	top: 82.5%;
+	right: 1%;
+}
+
+#content1infohead
+{
+	position: absolute;
+	font-size: 30px;
+	top: 10%;
+	left: 10%;
+}
+
+#line
+{
+	width: 30%;
+	height: 1%;
+	background: white;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+}
+
+#content1infotext
+{
+	width: 70%;
+	height: 75%;
+	padding: 2px;
+	position: absolute;
+	font-size: 20px;
+	top: 50%;
+	left: 10%;
+	line-height: 30px;
+	word-spacing: 8px;
+}
+
+
+
+
+#keke
+{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	background: black;
+	top: 300%;
+}

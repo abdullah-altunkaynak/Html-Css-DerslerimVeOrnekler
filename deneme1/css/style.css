@@ -1,0 +1,138 @@
+body
+{
+	background-color: #4f58ff;
+}
+
+
+#first
+{
+	height: 200px;
+	width: 300px;
+	margin: 200px 200px;
+	background: black;
+	border-style: solid;
+	border-width: 1px 1px 20px 1px;
+	border-color: white;
+}
+
+#first p
+{
+	color: gray;
+	margin: 200px 110px;
+}
+
+#words
+{
+	height: 20px;
+	width: 125px;
+	background: white;
+	margin: -199.6px 277px;
+}
+
+#light
+{
+	height: 5px;
+	width: 15px;
+	margin: 0px 60px;
+	background: #ff771c;
+}
+
+#foot
+{
+	height: 55px;
+	width: 28px;
+	background: white;
+	margin: 199px 330px;
+	box-shadow: 0 20px 20px black;
+}
+
+#base
+{
+	height: 50px;
+	width: 100px;
+	background: white;
+	margin: -220px 300px;
+	transform: skew(20deg);
+}
+
+#shadow
+{
+	height: 10px;
+	width: 10px;
+	background: #6e7070; 
+	margin: 180px 50px;
+	box-shadow: 0 0px 15px 10px  #3d434a;
+}
+
+
+
+
+
+
+
+#second
+{
+	height: 200px;
+	width: 300px;
+	margin: -330px 1200px;
+	background: black;
+	border-style: solid;
+	border-width: 1px 1px 20px 1px;
+	border-color: white;
+}
+
+#second p
+{
+	color: gray;
+	margin: -5px 110px;
+}
+
+#secondwords
+{
+	height: 20px;
+	width: 125px;
+	background: white;
+	margin: 330.6px 1277px;
+}
+
+#secondlight
+{
+	height: 5px;
+	width: 15px;
+	margin: 0px 60px;
+	background: blue;
+}
+
+#secondfoot
+{
+	height: 55px;
+	width: 28px;
+	background: white;
+	margin: -330.7px 1330px;
+	box-shadow: 0 20px 20px black;
+}
+
+#secondbase
+{
+	height: 50px;
+	width: 100px;
+	background: white;
+	margin: 310px 1300px;
+	transform: skew(20deg);
+}
+
+#secondshadow
+{
+	height: 10px;
+	width: 10px;
+	background: #6e7070; 
+	margin: 180px 50px;
+	box-shadow: 0 0px 15px 10px  #3d434a;
+}
+
+#second img
+{
+	height: 180px;
+	width: 140px;
+	margin: 10px 2px;
+}

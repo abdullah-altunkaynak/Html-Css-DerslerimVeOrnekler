@@ -1,0 +1,352 @@
+ html, body 
+{
+ 
+}
+
+#mainimg
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: fixed;
+	filter: sepia(1);
+}
+
+#socialmediabar
+{
+	width: 20%;
+	height: 10%;
+	box-shadow: 0.7px 0.7px 10px 1px gray;
+	background: rgba(220,220,220,0.2);
+	position: fixed;
+}
+
+#socialmediabar:hover
+{
+	background: rgba(45,37,18,0.0);
+	box-shadow: 0.7px 0.7px 8px 4px gray;
+}
+
+#socialmediabar a img
+{
+	width: 15%;
+	height: 65%;
+	margin: 3% 0px 0px 7%;
+}
+
+
+#homepage
+{
+	width: 10%;
+	height: calc(95%/4);
+	background: rgba(220,220,220,.2);
+	position: fixed;
+	display: flex;
+	right: 0px;
+}
+
+#homepage img
+{
+	width: 64px;
+	height: 64px;
+	margin: auto auto;
+}
+
+#infopage
+{
+	width: 10%;
+	height: calc(95%/4);
+	background: rgba(220,220,220,0.2);
+	position: fixed;
+	display: flex;
+	right: 0px;
+	top: calc(95%/4);
+	
+}
+
+#infopage img
+{
+	width: 64px;
+	height: 64px;
+	margin: auto;
+}
+
+#contactpage
+{
+	width: 10%;
+	height: calc(95%/4);
+	background: rgba(220,220,220,0.2);
+	position: fixed;
+	display: flex;
+	right: 0px;
+	top: calc(95%/2);
+	
+}
+
+#contactpage img
+{
+	width: 64px;
+	height: 64px;
+	margin: auto; 
+}
+
+#questionpage
+{
+	width: 10%;
+	height: calc(95%/4);
+	background: rgba(220,220,220,0.2);
+	position: fixed;
+	display: flex;
+	right: 0px;
+	top: calc(95%/4*3);
+}
+
+#questionpage img
+{
+	width: 64px;
+	height: 64px;
+	margin: auto;
+}
+
+#questionpage:hover, #contactpage:hover, #infopage:hover, #homepage:hover
+{
+	background: rgba(114,99,100,0.0);
+}
+
+#footer
+{
+	width: 100%;
+	height: 5%;
+	position: fixed;
+	background: rgb(10,57,21);
+	opacity: 0.2;
+	top: 95%;
+	z-index: 1;
+}
+
+#footer img
+{
+	width: 8%;
+	height: 15%;
+	position: fixed;
+	overflow: visible;
+	top: 85%;
+}
+
+#footer p
+{
+	text-align: center;
+	padding-top: 0.5%;
+	color: white;
+}
+
+#footer:hover
+{
+	opacity: 1;
+}
+
+
+#information
+{
+	height: auto;
+	width: 70%;
+	background:rgba(104,89,77,0.7);
+	position: absolute;
+	margin: 100% 0px 2.5% 20%;
+	color: white;
+	text-indent: 3%;
+	word-wrap: break-word;
+	font-family:cham;
+	font-size: 20px;
+	text-align: center;
+	word-spacing: 3px;
+	line-height: 26px;
+}
+
+#contentarea
+{
+	width: 90%;
+	height: 700px;
+	background:rgba(41,38,38,1.00);
+	position: absolute;
+	margin: 200% 0px 0px 0px;
+}
+
+#contentarea h1
+{
+	color: white;
+	font-size: 25px;
+	margin: 2% 0px 0px 3%;
+}
+
+.content1
+{
+	width: 33%;
+	height: 40%;
+	position: absolute;
+	margin: 2% 0px 0px 0px;
+}
+
+#contentarea div img
+{
+	width: 100%;
+	height: 100%;
+	object-fit:contain;
+}
+
+.content2
+{
+	width: 33%;
+	height: 40%;
+	position: absolute;
+	margin: 2% 0px 0px 33%;
+}
+
+.content3
+{
+	width: 33%;
+	height: 40%;
+	position: absolute;
+	margin: 2% 0px 0px 66%;
+}
+
+.content4
+{
+	width: 33%;
+	height: 40%;
+	position: absolute;
+	margin: 25% 0px 0px 0px;
+}
+
+.content5
+{
+	width: 33%;
+	height: 40%;
+	position: absolute;
+	margin: 25% 0px 0px 33%;
+}
+
+.content6
+{
+	width: 33%;
+	height: 40%;
+	position: absolute;
+	margin: 25% 0px 0px 66%;
+}
+
+.textarea
+{
+  position: absolute;
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #705720;
+}
+
+.overlay:hover .textarea
+{
+	opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#informfooter
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 250% 0px 0px 0px;
+	background: black;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	word-spacing: 10px;
+	line-height: 22px;
+}
+
+#informfooter h1
+{
+	font-size: 30px;
+}
+
+#informfooter ul
+{
+	margin-top: 20px;
+}
+
+.inform1
+{
+	width: 25%;
+	height: 40%;
+	position: absolute;
+	margin: 2% 0px 0px 1%;
+}
+
+.inform2
+{
+	width: 25%;
+	height: 40%;
+	position: absolute;
+	margin: 2% 0px 0px 25%;
+}
+
+.inform3
+{
+	width: 25%;
+	height: 40%;
+	position: absolute;
+	margin: 2% 0px 0px 50%;
+}
+
+.inform4
+{
+	width: 25%;
+	height: 40%;
+	position: absolute;
+	margin: 2% 0px 0px 75%;
+}
+
+.inform5
+{
+	width: 25%;
+	height: 40%;
+	position: absolute;
+	margin: 28% 0px 0px 1%;
+}
+
+.inform6
+{
+	width: 25%;
+	height: 40%;
+	position: absolute;
+	margin: 28% 0px 0px 25%;
+}
+
+.inform7
+{
+	width: 25%;
+	height: 40%;
+	position: absolute;
+	margin: 28% 0px 0px 50%;
+}
+
+.inform8
+{
+	width: 25%;
+	height: 40%;
+	position: absolute;
+	margin: 28% 0px 0px 75%;
+}

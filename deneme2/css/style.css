@@ -1,0 +1,102 @@
+body
+{
+	background-color: #572BD3FF;
+}
+
+#logo1
+{
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	margin: 50px 50px;
+}
+
+#kolon
+{
+	height: 100px;
+	width: 20px;
+	background-color:#FF0000FF;
+	position: absolute;
+	top: 101px;
+	left: 120px;
+}
+
+#kolon1
+{
+	height: 105px;
+	width: 20px;
+	background-color: #770000FF;
+	position: absolute;
+	transform: rotate(-20deg);
+	margin: 49.4px 81px;
+}
+
+#kolon2
+{
+	height: 100px;
+	width: 20px;
+	background-color:#FF0000FF;
+	position: absolute;
+	top: 101px;
+	left: 157px;
+	box-shadow: 1px 4px 1px 1px;
+}
+
+#keke
+{
+	height: 5px;
+	width: 22px;
+	background-color:#770000FF;
+	position: absolute;
+	top: 100px;
+	left: 120.3px;
+	box-shadow: 0px -2px 0px 0px;
+}
+
+#logo2
+{
+	height: 200px;
+	width: 200px;
+	background-color: #57007FFF;
+	margin: -248px 450px;
+}
+
+#dış
+{
+	height: 120px;
+	width: 110px;
+	background-color: black;
+	position: absolute;
+	clip-path: polygon(28% 0%, 0% 22%, 0% 80%, 25% 80%, 25% 100%, 50% 80%, 70% 80%, 100% 55%, 100% 0%);
+	left: 500px;
+	top: 80px;
+}
+
+#iç
+{
+	height: 70px;
+	width: 70px;
+	background-color: white;
+	position: absolute;
+	clip-path: polygon(0% 0%,0% 80%, 25% 80%, 25% 100%,50% 80%, 70% 80%, 100% 55%, 100% 0%);
+	left: 532px;
+	top: 97px;
+}
+
+#goz1
+{
+	height: 30px;
+	width: 10px;
+	position: absolute;
+	background-color: black;
+	margin: 10px 0px 0px 25px;
+}
+
+#goz2
+{
+	height: 30px;
+	width: 10px;
+	position: absolute;
+	background-color: black; 
+	margin: 10px 0px 0px 50px;
+}
